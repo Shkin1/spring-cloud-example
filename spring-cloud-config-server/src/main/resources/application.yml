@@ -1,0 +1,17 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Shkin1/spring-cloud-example
+          default-label: master
+          search-paths: config-repo
+          username: 240493030@qq.com
+          password: '@#*p@ssw0rd'
+
+    compatibility-verifier:
+      enabled=false: false
