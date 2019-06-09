@@ -13,5 +13,11 @@ spring:
           username: 240493030@qq.com
           password: '@#*p@ssw0rd'
 
-    compatibility-verifier:
-      enabled=false: false
+#    compatibility-verifier:
+#      enabled=false: false
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
+
